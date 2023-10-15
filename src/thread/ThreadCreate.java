@@ -1,7 +1,7 @@
 package thread;
 
 import java.util.concurrent.*;
-// 线程池创建线程
+//线程池创建线程
 public class ThreadCreate {
     public static void main(String[] args) {
         ExecutorService threadPool= new ThreadPoolExecutor(
